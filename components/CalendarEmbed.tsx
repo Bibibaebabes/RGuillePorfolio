@@ -101,12 +101,17 @@ const CalendarEmbed: React.FC = () => {
                   </p>
                 </div>
 
-                <button className="group relative px-6 md:px-8 py-3 md:py-4 bg-white text-black rounded-xl font-black text-[9px] md:text-[10px] uppercase tracking-[0.2em] overflow-hidden transition-all hover:pr-10 md:hover:pr-12 active:scale-95">
+                <a 
+                  href="https://calendly.com/realynguille" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="group relative px-6 md:px-8 py-3 md:py-4 bg-white text-black rounded-xl font-black text-[9px] md:text-[10px] uppercase tracking-[0.2em] overflow-hidden transition-all hover:pr-10 md:hover:pr-12 active:scale-95 inline-block"
+                >
                   <span className="relative z-10">Open Calendar</span>
                   <div className="absolute right-3 md:right-4 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-all">
                     →
                   </div>
-                </button>
+                </a>
               </div>
 
               {/* Footer */}

@@ -19,9 +19,6 @@ const Footer: React.FC = () => {
 
           <div className="text-center md:text-right space-y-3">
             <p className="text-white font-black uppercase tracking-widest text-xs">Built by {DEVELOPER_INFO.name}</p>
-            <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest">
-              Web Architect using AI-Supported Development Systems
-            </p>
           </div>
         </div>
         

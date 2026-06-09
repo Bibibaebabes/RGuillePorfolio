@@ -10,8 +10,8 @@ export const DEVELOPER_INFO = {
   email: "realynguille999@gmail.com",
   phone: "09352042140",
   whatsapp: "09352042140",
-  facebook: "Realyn Guille",
-  linkedin: "Realyn Guille",
+  facebook: "https://www.facebook.com/realynguille27",
+  linkedin: "https://www.linkedin.com/in/guille-realyn-l-375a6a371",
   profileImage: "/profile.jpg",
   bio: "BS Information Technology graduate specializing in full-stack development. Passionate about creating scalable applications that solve real-world problems.",
   specializations: [
@@ -32,25 +32,25 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     title: "Frontend Development",
     skills: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Responsive Design", "Framer Motion"],
-    proficiency: "Expert",
+    proficiency: "Advanced",
     icon: "Layout"
   },
   {
     title: "Backend Development",
     skills: ["Node.js", "Express.js", "Python", "RESTful APIs", "JWT Authentication", "Middleware", "Server Architecture"],
-    proficiency: "Advanced",
+    proficiency: "Intermediate",
     icon: "Code"
   },
   {
     title: "Database & Data",
     skills: ["MongoDB", "MySQL", "PostgreSQL", "Firebase Firestore", "Database Design", "SQL Queries", "Data Modeling"],
-    proficiency: "Advanced",
+    proficiency: "Intermediate",
     icon: "Database"
   },
   {
     title: "Mobile Development",
     skills: ["Flutter", "Dart", "Cross-Platform", "Native UI", "App Performance", "Firebase Integration"],
-    proficiency: "Intermediate",
+    proficiency: "Advanced",
     icon: "Smartphone"
   },
   {
@@ -62,7 +62,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     title: "Software Engineering",
     skills: ["System Design", "Data Structures", "OOP Principles", "Design Patterns", "Algorithms", "Testing", "Agile"],
-    proficiency: "Advanced",
+    proficiency: "Intermediate",
     icon: "Cpu"
   }
 ];
@@ -70,36 +70,36 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 export const PROJECTS: Project[] = [
   {
     id: "1",
-    title: "Capstone Project: Smart Learning Hub",
-    description: "A comprehensive full-stack educational platform for real-time learning collaboration, assignment tracking, and student-teacher interaction.",
-    features: ["Real-time notifications", "Role-based access control", "Analytics dashboard", "File management system", "Video integration"],
-    tools: ["React", "Node.js", "MongoDB", "Firebase", "Express"],
-    imageUrl: "https://picsum.photos/seed/capstone/800/600",
+    title: "Capstone: AEDEX - Community-Based Dengue Breeding Sites Monitoring Using Image Classification and Geotagging",
+    description: "A comprehensive mobile and web platform for real-time dengue prevention through image classification to detect mosquito breeding sites and predict mosquito types, combined with geotagging for risk mapping and real-time notifications for community-based dengue monitoring.",
+    features: ["Image classification for breeding sites", "Geotagging for user location", "Email authentication", "Real-time notifications"],
+    tools: ["Flutter", "Firebase", "Django", "React", "MobileNetV2", "Leaflet.js", "Chart.js", "Tailwind CSS"],
+    imageUrl: "/aedex-app.png",
     link: "#",
-    status: "In Development",
-    impact: "Designed to improve learning efficiency for 500+ students"
+    status: "Completed",
+    impact: "Developed full-stack solution connecting 30+ residents with local health authorities for dengue prevention"
   },
   {
     id: "2",
-    title: "Internship: E-Commerce Platform Optimization",
-    description: "Enhanced frontend performance and implemented new features for a high-traffic e-commerce platform during professional internship.",
-    features: ["Performance optimization", "UI/UX improvements", "Payment gateway integration", "Search functionality", "Product recommendations"],
-    tools: ["React", "TypeScript", "Redux", "REST APIs", "Stripe"],
-    imageUrl: "https://picsum.photos/seed/internship/800/600",
+    title: "Internship: USS (Universal Survey System) - LODIxR Project",
+    description: "Front-end developer for the Universal Survey System project under LODIxR. Designed and implemented key survey management interfaces including survey list operations and response analytics dashboard for the Department of Science and Technology.",
+    features: ["Completed Interface", "Read, Update and Delete in View Survey list Interface", "View Survey Responses Results"],
+    tools: ["React", "Node.js", "TypeScript", "Redux", "Clean Architecture", "MVVM Architecture", "Git", "GitHub", "OpenProject"],
+    imageUrl: "/uss-dashboard.png",
     link: "#",
-    status: "Completed",
-    impact: "Reduced page load time by 40%, increased conversion by 25%"
+    status: "In Development",
+    impact: "Delivered complete survey management interface for DOST LODIxR project serving multiple survey administrators"
   },
   {
     id: "3",
-    title: "Academic: Fleet Management System",
-    description: "Database-driven backend system for managing vehicle fleet operations, maintenance schedules, and driver assignments.",
-    features: ["Inventory management", "Maintenance tracking", "Driver scheduling", "Route optimization", "Report generation"],
-    tools: ["Python", "MySQL", "Flask", "SQLAlchemy", "JWT"],
-    imageUrl: "https://picsum.photos/seed/academic/800/600",
+    title: "Academic: Grading Management System",
+    description: "A comprehensive school-based grading management system for handling student grades, course management, and academic performance tracking. Built with a robust backend to manage faculty, admin, and student roles with role-based access control and grade reporting capabilities.",
+    features: ["Student grades management", "Course management", "Grade reporting"],
+    tools: ["PHP", "HTML", "CSS", "Bootstrap 5", "XAMPP"],
+    imageUrl: "/grading-system.png",
     link: "#",
     status: "Completed",
-    impact: "Reduced fleet management overhead by 60%"
+    impact: "Implemented complete academic management system for school operations with role-based access control"
   }
 ];
 

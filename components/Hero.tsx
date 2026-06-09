@@ -7,15 +7,15 @@ const Hero: React.FC = () => {
   const [showMoreTools, setShowMoreTools] = useState(false);
 
   const mainTools = [
-    { name: "React", url: "https://cdn.worldvectorlogo.com/logos/react-2.svg" },
-    { name: "Flutter", url: "https://cdn.worldvectorlogo.com/logos/flutter.svg" },
-    { name: "Node.js", url: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" }
+    { name: "React", url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" },
+    { name: "Flutter", url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" },
+    { name: "Node.js", url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" }
   ];
 
   const moreTools = [
-    { name: "Redux", url: "https://cdn.worldvectorlogo.com/logos/redux.svg" },
-    { name: "TypeScript", url: "https://cdn.worldvectorlogo.com/logos/typescript.svg" },
-    { name: "Firebase", url: "https://cdn.worldvectorlogo.com/logos/firebase-1.svg" }
+    { name: "Redux", url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
+    { name: "TypeScript", url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
+    { name: "Firebase", url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" }
   ];
 
   return (
@@ -109,14 +109,18 @@ const Hero: React.FC = () => {
                 <div className="flex gap-5">
                   <motion.a 
                     whileHover={{ scale: 1.2, y: -3 }}
-                    href="#" 
+                    href={DEVELOPER_INFO.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-slate-400 hover:text-teal-400 transition-colors"
                   >
                     <Facebook size={18} />
                   </motion.a>
                   <motion.a 
                     whileHover={{ scale: 1.2, y: -3 }}
-                    href="#" 
+                    href={DEVELOPER_INFO.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-slate-400 hover:text-teal-400 transition-colors"
                   >
                     <Linkedin size={18} />

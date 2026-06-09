@@ -134,22 +134,6 @@ const Services: React.FC = () => {
                 <p className="text-sm lg:text-base text-slate-300 leading-relaxed mb-8 group-hover:text-slate-200 transition-colors">
                   {service.description}
                 </p>
-
-                {/* CTA Link */}
-                <motion.a 
-                  whileHover={{ x: 4 }}
-                  href="#contact" 
-                  className="inline-flex items-center gap-3 text-xs lg:text-sm font-black text-teal-400 uppercase tracking-widest hover:text-cyan-400 transition-colors group/link"
-                >
-                  Explore More
-                  <motion.span
-                    animate={{ x: [0, 4, 0] }}
-                    transition={{ duration: 2, repeat: Infinity }}
-                    className="inline-block"
-                  >
-                    <ArrowRight size={14} />
-                  </motion.span>
-                </motion.a>
               </div>
             </motion.div>
           ))}
